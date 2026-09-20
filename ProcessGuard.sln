@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BAB697DA-79CD-4DE8-B98C-548BAB324182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.Core", "src\ProcessGuard.Core\ProcessGuard.Core.csproj", "{E47F84BF-3836-4F5E-B506-196DC7A745D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.Windows", "src\ProcessGuard.Windows\ProcessGuard.Windows.csproj", "{B1A95CD3-B258-4815-819F-15533ADE1F8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.App", "src\ProcessGuard.App\ProcessGuard.App.csproj", "{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{518A5A28-AE6C-4A76-A928-C094929FECD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.Tests", "tests\ProcessGuard.Tests\ProcessGuard.Tests.csproj", "{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.Integration", "tests\ProcessGuard.Integration\ProcessGuard.Integration.csproj", "{2D9BDFC7-0658-40F0-9D3E-EE16AA142687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessGuard.UiTests", "tests\ProcessGuard.UiTests\ProcessGuard.UiTests.csproj", "{E06D54A8-16BD-4AB9-A06E-914B349B2592}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E47F84BF-3836-4F5E-B506-196DC7A745D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47F84BF-3836-4F5E-B506-196DC7A745D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47F84BF-3836-4F5E-B506-196DC7A745D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47F84BF-3836-4F5E-B506-196DC7A745D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A95CD3-B258-4815-819F-15533ADE1F8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A95CD3-B258-4815-819F-15533ADE1F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A95CD3-B258-4815-819F-15533ADE1F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A95CD3-B258-4815-819F-15533ADE1F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9BDFC7-0658-40F0-9D3E-EE16AA142687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9BDFC7-0658-40F0-9D3E-EE16AA142687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9BDFC7-0658-40F0-9D3E-EE16AA142687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9BDFC7-0658-40F0-9D3E-EE16AA142687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06D54A8-16BD-4AB9-A06E-914B349B2592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06D54A8-16BD-4AB9-A06E-914B349B2592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06D54A8-16BD-4AB9-A06E-914B349B2592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06D54A8-16BD-4AB9-A06E-914B349B2592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E47F84BF-3836-4F5E-B506-196DC7A745D2} = {BAB697DA-79CD-4DE8-B98C-548BAB324182}
+		{B1A95CD3-B258-4815-819F-15533ADE1F8D} = {BAB697DA-79CD-4DE8-B98C-548BAB324182}
+		{9F4B4C4C-67E0-49EF-87CF-074FDB3DC881} = {BAB697DA-79CD-4DE8-B98C-548BAB324182}
+		{BD39B2AB-BBCA-44BB-9825-8BD2B56B8E68} = {518A5A28-AE6C-4A76-A928-C094929FECD2}
+		{2D9BDFC7-0658-40F0-9D3E-EE16AA142687} = {518A5A28-AE6C-4A76-A928-C094929FECD2}
+		{E06D54A8-16BD-4AB9-A06E-914B349B2592} = {518A5A28-AE6C-4A76-A928-C094929FECD2}
+	EndGlobalSection
+EndGlobal

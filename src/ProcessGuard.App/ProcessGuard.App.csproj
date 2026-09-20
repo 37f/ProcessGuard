@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>ProcessGuard</AssemblyName>
+    <RootNamespace>ProcessGuard.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/ProcessGuard.ico</ApplicationIcon>
+    <Product>进程哨兵</Product>
+    <Description>进程哨兵 · Windows 实时进程监控</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../ProcessGuard.Windows/ProcessGuard.Windows.csproj" />
+    <!-- Embedded resources keep the window and executable icons self-contained. -->
+    <Resource Include="Assets/ProcessGuard.ico" />
+    <Resource Include="Assets/ProcessGuard.png" />
+  </ItemGroup>
+</Project>
