@@ -6,7 +6,7 @@
 
 ## 下载
 
-**[下载 Windows x64 版 v1.0.1](https://github.com/37f/ProcessGuard/releases/download/v1.0.1/ProcessGuard-v1.0.1-win-x64.zip)**
+**[下载 Windows x64 版 v1.0.0](https://github.com/37f/ProcessGuard/releases/download/v1.0.0/ProcessGuard-v1.0.0-win-x64.zip)**
 
 解压后运行 `ProcessGuard.exe`。发布版自带 .NET 运行库，无需另行安装。
 
