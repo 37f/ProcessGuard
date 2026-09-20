@@ -1,6 +1,6 @@
 # 进程哨兵 ProcessGuard — Windows 实时进程监控工具
 
-v1.0.1：加入盾牌与监测脉冲图标，并统一中文窗口名称。图标包含 16、20、24、32、40、48、64、128、256 像素共九个尺寸，已嵌入 EXE、窗口与标题区。图标源文件位于 `src/ProcessGuard.App/Assets`，可运行 `powershell.exe -NoProfile -STA -File .\tools\New-Icon.ps1` 从矢量路径重新生成。
+v1.0.0：加入盾牌与监测脉冲图标，并统一中文窗口名称。图标包含 16、20、24、32、40、48、64、128、256 像素共九个尺寸，已嵌入 EXE、窗口与标题区。图标源文件位于 `src/ProcessGuard.App/Assets`，可运行 `powershell.exe -NoProfile -STA -File .\tools\New-Icon.ps1` 从矢量路径重新生成。
 
 C# / .NET 8 / WPF。Windows 10/11 x64。自包含发布版不需要额外安装 .NET。程序每秒枚举系统可见进程，展示整机与进程 CPU、内存、保护状态及连续超限时间。
 
